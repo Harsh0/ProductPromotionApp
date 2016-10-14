@@ -1,7 +1,7 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 40%;
+    width: 550px;
 }
 
 td, th {
@@ -60,4 +60,8 @@ li  a {
 
 li  a:hover {
     background-color: #111;
+}
+
+img{
+  float: left;
 }
