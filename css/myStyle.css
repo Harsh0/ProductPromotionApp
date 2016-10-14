@@ -9,12 +9,15 @@ td, th {
     text-align: left;
     padding: 8px;
 }
+tr{
+  font-family: 'Chewy', cursive;
+}
 
 tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-ul {
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,12 +48,12 @@ footer{
     background-color: #4CAF50;
 }
 
-li  {
+#nav li  {
     float: left;
 
 }
 
-li  a {
+#nav li  a {
     display: block;
     color: white;
     text-align: center;
@@ -58,10 +61,20 @@ li  a {
     text-decoration: none;
 }
 
-li  a:hover {
+#nav li  a:hover {
     background-color: #111;
 }
 
 img{
   float: left;
 }
+
+#sendI{
+  float:left;
+  padding:50px;
+  border-style:solid;
+  border-width: 3px;
+}
+.footer-social { float: right; margin-top:0px;}
+.footer-social li { display: inline;}
+.footer-social span { margin-top: -20px;}
