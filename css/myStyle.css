@@ -1,0 +1,63 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header, footer {
+    padding: 1em;
+
+
+    clear: left;
+    text-align: center;
+}
+header{
+  color: black;
+  background-image: url("http://www.w3schools.com/css/gradient_bg.png");
+}
+
+footer{
+
+  margin-bottom: 0px;
+  color: white;
+  background-color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+li  {
+    float: left;
+
+}
+
+li  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li  a:hover {
+    background-color: #111;
+}
